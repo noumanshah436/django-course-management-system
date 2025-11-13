@@ -25,3 +25,7 @@
 ## Admin Page
 
 Admin page can be accessed by going to address `http://localhost:8000/admin` . To login into admin create a superuser first by running `python manage.py createsuperuser` in project root directory. Enter **username**, **email** and **password** and use these username and password to login into admin.
+
+username: nouman
+Email address: nouman@gmail.com
+pass: nouman

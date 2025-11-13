@@ -16,7 +16,7 @@ class Command(BaseCommand):
                     offering.section.drop_deadline = parse_date(row[1])
                     offering.section.save()
 
-                    # ✅ Prevent UNIQUE constraint error
+                    # Prevent UNIQUE constraint error
                     forum, _ = Forum.objects.get_or_create(offering=offering)
 
                     if row[2]:
